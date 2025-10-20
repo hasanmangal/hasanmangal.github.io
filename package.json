@@ -1,6 +1,6 @@
 
 {
-  "homepage": "https://hasanmangal.github.io/posNox",
+  "homepage": "https://hasanmangal.github.io",
   "name": "posnox",
   "private": true,
   "version": "0.0.0",
@@ -8,8 +8,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "postbuild": "cp dist/index.html dist/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+
     "lint": "eslint .",
     "preview": "vite preview"
   },

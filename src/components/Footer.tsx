@@ -73,7 +73,10 @@ export default function Footer() {
                 info@posnox.com
               </li>
               <li className="text-base text-gray-300">
-                +90 (212) 123 45 67
+                +90 (531) 778 36 54
+              </li>
+              <li className="text-base text-gray-300">
+                +90 (553) 109 72 66
               </li>
               <li className="text-base text-gray-300">
                 İstanbul, Türkiye

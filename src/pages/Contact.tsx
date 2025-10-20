@@ -2,9 +2,15 @@ import { motion } from 'framer-motion';
 import { HiPhone, HiMail, HiLocationMarker } from 'react-icons/hi';
 
 const contactInfo = [
+
   {
     name: 'Telefon',
-    value: '+90 (212) 123 45 67',
+    value: '+90 (531) 778 36 54',
+    icon: HiPhone,
+  },
+  {
+    name: 'Telefon',
+    value: '+90 (553) 109 72 66',
     icon: HiPhone,
   },
   {
@@ -14,7 +20,7 @@ const contactInfo = [
   },
   {
     name: 'Adres',
-    value: 'Levent, İstanbul',
+    value: 'Pendik, İstanbul',
     icon: HiLocationMarker,
   },
 ];
