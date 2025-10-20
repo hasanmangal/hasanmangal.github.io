@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HiMenu, HiX } from 'react-icons/hi';
+import logo from '/logo-posnox.png'
 
 const navigation = [
   { name: 'Ana Sayfa', href: '/' },
@@ -20,8 +21,8 @@ export default function Navbar() {
         <Link to="/" className="flex items-center space-x-3 group">
           {/* Logo image */}
           <img
-            src="/logo-posnox.png"
-            alt="posNox logo"
+            src={logo}
+            alt="posNox logo-2"
             className="h-10 w-10 object-contain drop-shadow-md group-hover:scale-105 transition-transform"
             style={{ background: 'white', borderRadius: '12px' }}
           />
