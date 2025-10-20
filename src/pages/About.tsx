@@ -7,26 +7,26 @@ const stats = [
   { label: 'Başarı Oranı', value: '%99.9', icon: HiCheckCircle },
 ];
 
-const team = [
-  {
-    name: 'Ahmet Yılmaz',
-    role: 'CEO & Kurucu',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    linkedin: '#',
-  },
-  {
-    name: 'Ayşe Demir',
-    role: 'CTO',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    linkedin: '#',
-  },
-  {
-    name: 'Mehmet Kaya',
-    role: 'Ürün Müdürü',
-    image: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    linkedin: '#',
-  },
-];
+// const team = [
+//   {
+//     name: 'Ahmet Yılmaz',
+//     role: 'CEO & Kurucu',
+//     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+//     linkedin: '#',
+//   },
+//   {
+//     name: 'Ayşe Demir',
+//     role: 'CTO',
+//     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+//     linkedin: '#',
+//   },
+//   {
+//     name: 'Mehmet Kaya',
+//     role: 'Ürün Müdürü',
+//     image: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+//     linkedin: '#',
+//   },
+// ];
 
 export default function About() {
   return (
